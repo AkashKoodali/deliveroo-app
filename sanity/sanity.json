@@ -4,7 +4,7 @@
     "name": "deliveroo"
   },
   "api": {
-    "projectId": "j9yfphi1",
+    "projectId": "m0ztmvm1",
     "dataset": "production"
   },
   "plugins": [
@@ -13,13 +13,6 @@
     "@sanity/default-login",
     "@sanity/desk-tool"
   ],
-  "env": {
-    "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
-    }
-  },
   "parts": [
     {
       "name": "part:@sanity/base/schema",
