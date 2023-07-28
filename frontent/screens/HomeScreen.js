@@ -1,5 +1,5 @@
 import { View, Text, Image, TextInput, ScrollView } from "react-native";
-import React from "react";
+import React, { useState } from "react";
 import { SafeAreaView } from "react-native";
 import {
   ChevronDownIcon,
@@ -11,6 +11,7 @@ import Categories from "../components/Categories";
 import FeaturedRow from "../components/FeaturedRow";
 
 const HomeScreen = () => {
+  const [featuredCategories, setFeaturedCategories] = useState([]);
   return (
     <SafeAreaView className="bg-white pt-5">
       {/* header */}
