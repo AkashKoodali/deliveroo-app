@@ -2,14 +2,14 @@ import SanityClient from "@sanity/client";
 import ImageUrlBuilder from "@sanity/image-url";
 
 const client = SanityClient({
-  // projectId: "jd57w7ev",
-  // dataset: "production",
-  // useCdn: true,
-  // apiVersion: "2021-10-21",
-  projectId: "m0ztmvm1",
+  projectId: "jd57w7ev",
   dataset: "production",
   useCdn: true,
-  apiVersion: "2022-10-21",
+  apiVersion: "2021-10-21",
+  // projectId: "m0ztmvm1",
+  // dataset: "production",
+  // useCdn: true,
+  // apiVersion: "2022-10-21",
 });
 
 const builder = ImageUrlBuilder(client);

@@ -3,6 +3,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import HomeScreen from "./screens/HomeScreen";
 import { NativeWindStyleSheet } from "nativewind";
 import "react-native-url-polyfill/auto";
+import RestaurantScreen from "./screens/RestaurantScreen";
 
 NativeWindStyleSheet.setOutput({
   default: "native",
@@ -20,6 +21,8 @@ export default function App() {
           name="Home"
           component={HomeScreen}
         />
+
+        <Stack.Screen name="Restaurant" component={RestaurantScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

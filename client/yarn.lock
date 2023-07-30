@@ -3042,12 +3042,12 @@ __metadata:
   linkType: hard
 
 "@urql/core@npm:>=2.3.1":
-  version: 4.1.0
-  resolution: "@urql/core@npm:4.1.0"
+  version: 4.1.1
+  resolution: "@urql/core@npm:4.1.1"
   dependencies:
     "@0no-co/graphql.web": ^1.0.1
     wonka: ^6.3.2
-  checksum: 57e1b2bccd96030f35d9b6fa34cb37c2f88412719bc05a24dfde20d839b3f65088f58755f21a57713bfa0bc76edecd03426d86265155d16021dec8486db70db7
+  checksum: 1dcca5c12efcb8066f14d9edc4ce9c76df07426864a678a7a8df040b1e01a91a880943f218c6f04c4e6dcbcf58929e578947ea459681e5b0d49497c8b0bebbcb
   languageName: node
   linkType: hard
 
@@ -5252,6 +5252,7 @@ __metadata:
     nativewind: ^2.0.11
     postcss: 8.4.23
     react: 18.2.0
+    react-currency-formatter: ^1.1.0
     react-dom: 18.2.0
     react-native: 0.71.8
     react-native-heroicons: ^3.2.0
@@ -5452,9 +5453,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.431":
-  version: 1.4.475
-  resolution: "electron-to-chromium@npm:1.4.475"
-  checksum: 3e7a538c486b351c13bcd05295535b2b5b0a2980dcf3504457fe47c6689d74a87fd62eab629227dcc86b66cfd732076667d6392f998b13995a8b54eff8073fb8
+  version: 1.4.477
+  resolution: "electron-to-chromium@npm:1.4.477"
+  checksum: 1bf6117b2b58d4f18eff4f019fdffd0a68988142e095d8e59a66dbd0b6587e963b405aefc925b229959de20e3e8483849bcc41e3edb4366a359f825bc0a97377
   languageName: node
   linkType: hard
 
@@ -6074,13 +6075,13 @@ __metadata:
   linkType: hard
 
 "fast-xml-parser@npm:^4.0.12":
-  version: 4.2.6
-  resolution: "fast-xml-parser@npm:4.2.6"
+  version: 4.2.7
+  resolution: "fast-xml-parser@npm:4.2.7"
   dependencies:
     strnum: ^1.0.5
   bin:
     fxparser: src/cli/cli.js
-  checksum: 1628e4b2c5ae01fe35eb920f09c6def7e29fd455f307fc44c3372c78114504643f34b28e87c13a4f1657c10498dbb6729a341507044dc7cba498e457e8fe2573
+  checksum: d8b0c9e04756f6c43fa0399428f30149acadae21350e42e26e8fe98e24e6afa6b9b00aa554453795036b00e9fee974a1b556fe2ba18be391d51a9bf1ab790e7c
   languageName: node
   linkType: hard
 
@@ -10494,7 +10495,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:*":
+"prop-types@npm:*, prop-types@npm:^15.6.0":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -10627,6 +10628,17 @@ __metadata:
   bin:
     rc: ./cli.js
   checksum: 2e26e052f8be2abd64e6d1dabfbd7be03f80ec18ccbc49562d31f617d0015fbdbcf0f9eed30346ea6ab789e0fdfe4337f033f8016efdbee0df5354751842080e
+  languageName: node
+  linkType: hard
+
+"react-currency-formatter@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "react-currency-formatter@npm:1.1.0"
+  dependencies:
+    prop-types: ^15.6.0
+  peerDependencies:
+    react: 16.x
+  checksum: c5d78f34650a120f6aca39f9da44142cb3deaf83e229f0dcc0b56c288ef4865bd2dfcb72f37b3ad86131c0539e2058603d7406e3d6c8a14b4867a9ba525a37b0
   languageName: node
   linkType: hard
 
@@ -11602,9 +11614,9 @@ __metadata:
   linkType: hard
 
 "signal-exit@npm:^4.0.1":
-  version: 4.0.2
-  resolution: "signal-exit@npm:4.0.2"
-  checksum: 41f5928431cc6e91087bf0343db786a6313dd7c6fd7e551dbc141c95bb5fb26663444fd9df8ea47c5d7fc202f60aa7468c3162a9365cbb0615fc5e1b1328fe31
+  version: 4.1.0
+  resolution: "signal-exit@npm:4.1.0"
+  checksum: 64c757b498cb8629ffa5f75485340594d2f8189e9b08700e69199069c8e3070fb3e255f7ab873c05dc0b3cec412aea7402e10a5990cb6a050bd33ba062a6c549
   languageName: node
   linkType: hard
 
