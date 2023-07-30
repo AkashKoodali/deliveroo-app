@@ -12,7 +12,7 @@ const Categories = () => {
     });
   }, []);
 
-  console.log(categories);
+  // console.log(categories);
 
   return (
     <ScrollView
