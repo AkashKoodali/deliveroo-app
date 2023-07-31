@@ -6,6 +6,7 @@ import "react-native-url-polyfill/auto";
 import RestaurantScreen from "./screens/RestaurantScreen";
 import { store } from "./store";
 import { Provider } from "react-redux";
+import BasketScreen from "./screens/BasketScreen";
 
 NativeWindStyleSheet.setOutput({
   default: "native",
@@ -26,6 +27,14 @@ export default function App() {
           />
 
           <Stack.Screen name="Restaurant" component={RestaurantScreen} />
+          <Stack.Screen
+            options={{
+              presentation: "modal",
+              headerShown: false,
+            }}
+            name="Basket"
+            component={BasketScreen}
+          />
         </Stack.Navigator>
       </Provider>
     </NavigationContainer>
